@@ -1,13 +1,19 @@
 import React from "react";
+import Navbar from "./components/Navbar/Navbar";
 import logo from "./logo.svg";
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
+      <Navbar />
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>Future home of Icon Digital Palette.</p>
+        <center>
+          <img src={logo} className="App-logo" alt="logo" />
+          <h1>
+            <i>Future home of Iconic Digital Palette.</i>
+          </h1>
+        </center>
       </header>
     </div>
   );
