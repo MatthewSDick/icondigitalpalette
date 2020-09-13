@@ -6,7 +6,7 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <Navbar />
+      {/* <Navbar /> */}
       <header className="App-header">
         <center>
           <img src={logo} className="App-logo" alt="logo" />
