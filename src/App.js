@@ -11,7 +11,7 @@ function App() {
         <center>
           <img src={logo} className="App-logo" alt="logo" />
           <h1>
-            <i>Future home of Iconic Digital Palette.</i>
+            <i>Iconic Digital Palette.</i>
           </h1>
         </center>
       </header>
