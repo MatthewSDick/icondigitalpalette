@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import { MenuItems } from "./MenuItems";
 import { Button } from "../Button";
 import "./Navbar.css";
-import logo from "./idp_logo.png";
 
 class Navbar extends Component {
   state = { clicked: false };
